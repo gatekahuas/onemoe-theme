@@ -11,7 +11,7 @@ $color-bg: rgba(199, 226, 249, 0.6);
 
 body {
   background: #e0eafc;
-  background-image: linear-gradient(0deg, #cfdef3, #e0eafc);
+  background-image: linear-gradient(135deg, #e0eafc, #cfdef3);
 
   min-height: 100vh;
   margin: auto;
@@ -22,15 +22,6 @@ body {
   // justify-content: center;
 
   @import "scss/head"; //顶部
-  @import "scss/pop"; //弹出菜单
-
-  // 升级提示
-  > div[style="position:absolute;"] {
-    top: 2rem;
-    background-color: yellow;
-    border-radius: 2px;
-    padding: 5px;
-  }
 
   // 网盘标题
   > h1.title {

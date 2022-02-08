@@ -1,13 +1,14 @@
-// out:false
-div[style="margin: 12px 4px 4px; text-align: center"] {
-  >div:first-of-type {
+> div {
+  > div:first-of-type {
     display: flex;
     flex-direction: column;
     align-items: center;
 
     textarea {
       border: #999 solid 2px;
-      padding: 5px;
+      padding: 0 5px;
+      line-height: 24px;
+      vertical-align: middle;
 
       &:hover {
         border: solid 2px #777;
@@ -24,32 +25,30 @@ div[style="margin: 12px 4px 4px; text-align: center"] {
       font-size: 1.6rem;
       margin-top: 15px;
       padding: 2px 12px 3px 7px;
-      width: auto;
-      border: solid 2px dimgrey;
-      background-color: gainsboro;
-      color: #333;
-      border-radius: 1.6rem;
+      border: solid 2px #339999;
+      background-color: rgba(255, 255, 255, 0.651);
+      color: #339999;
+      border-radius: 2px;
       transition: 0.2s;
 
       &:hover {
-        border: solid 2px #666;
-        box-shadow: 0 0 10px rgb(105, 105, 105);
-        background-color: rgb(243, 243, 243);
+        box-shadow: 0 0 5px #339999;
+        background-color: #fff;
         text-decoration: none;
       }
 
-      .hydrated {
-        display: none;
-      }
+      // .hydrated {
+      //   display: none;
+      // }
     }
   }
 
-  img {
-    width: 100%;
-  }
+  // img {
+  //   width: 100%;
+  // }
 
-  #pdf-c1,
-  #txt {
-    width: 100%;
-  }
+  // #pdf-c1,
+  // #txt {
+  //   width: 100%;
+  // }
 }

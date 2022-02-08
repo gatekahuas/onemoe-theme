@@ -125,33 +125,6 @@ div.list-body-container {
             overflow: hidden;
             text-overflow: ellipsis;
           }
-
-          // 文件管理
-          li.operate {
-            display: flex;
-            align-items: center;
-
-            // margin-right: -2rem;
-            ul {
-              top: -0.7rem;
-              left: 1rem;
-
-              li {
-                padding: 0.5rem;
-                font-size: 1.3rem;
-
-                a {
-                  width: auto;
-                  padding-right: 0.8rem;
-                }
-
-                &:hover a {
-                  color: $color-bt;
-                  text-decoration: none;
-                }
-              }
-            }
-          }
         }
       }
     }
