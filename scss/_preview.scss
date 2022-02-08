@@ -1,4 +1,5 @@
 > div {
+  overflow: hidden;
   > div:first-of-type {
     display: flex;
     flex-direction: column;
