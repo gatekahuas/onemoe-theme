@@ -53,4 +53,4 @@ body {
 ## 其他
 
 - css 样式地址：https://cdn.jsdelivr.net/gh/kizx/onemoe-theme/onemoe.min.css
-- css 样式刷新连接：https://purge.jsdelivr.net/gh/kizx/onemoe-theme/onemoe.min.css
+- css 样式刷新链接：https://purge.jsdelivr.net/gh/kizx/onemoe-theme/onemoe.min.css
